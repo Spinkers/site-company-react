@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Jumbotron from '../jumbotron/index';
 
 const Sobre = props => {
     return (
         <>
+        <Jumbotron />
             {/* Sobre a empresa */}
             <div id='about' className='container-fluid'>
                 <div className='row'>
